@@ -13,7 +13,15 @@ print('ENTRADA DE DADOS')
 print('-'*70)
 
 # entrada
-print('INFORME O VALOR')
-numero = float(input())
+print('INFORME UM VALOR')
+numero = int(input('VALOR:'))
+
 # processo
+antecessor = numero - 1
+sucessor = numero + 1
+
 # saida
+print('-'*70)
+print('RESULTADO')
+print(f'ANTECESSOR....: {antecessor}')
+print(f'SUCESSOR......: {sucessor}')

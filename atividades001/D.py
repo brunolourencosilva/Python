@@ -3,8 +3,6 @@
 #data:19/04/2024
 #atividade001 D-Faça um programa que receba e divida 2 números. A saída da divisão precisará ser formatada com 4 casas decimais.
 
-# AINDA EM PROCESSO DE DESENVOLVIMENTO!!!!!!!!
-
 import os 
 
 
@@ -19,15 +17,15 @@ print('-'*70)
 print('-'*70)
 print('INFORMER OS VALORES')
 print('-'*70)
-dividendo = float(input('DIVIDENDO....:'))
-divisor = float(input('DIVISOR....:'))
+dividendo1 = float(input('DIVIDENDO....: '))
+divisor1 = float(input('DIVISOR......: '))
 
 #processo
-quociente = dividendo / divisor
+quociente1 = dividendo1 / divisor1
+
 
 #saida
 print('='*70)
 print('RESULTADOS')
 print('-'*70)
-print(f'A DIVISÃO ENTRE OS VALORES {dividendo} E {divisor} É IGUAL A: {quociente} ')
-
+print(f'ESSA DIVISÃO EM 4 CASA DECIMAIS: {quociente1:.4f} ')

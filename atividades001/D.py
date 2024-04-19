@@ -3,9 +3,10 @@
 #data:19/04/2024
 #atividade001 D-Faça um programa que receba e divida 2 números. A saída da divisão precisará ser formatada com 4 casas decimais.
 
+#importanto biblioteca
 import os 
 
-
+#limpando o terminal
 os.system('cls')
 
 

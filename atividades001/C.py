@@ -3,10 +3,10 @@
 #data:19/04/2024
 #atividade001 C-Faça um programa que peça 4 notas, após a entrada de dados calcular a média das notas digitadas.
 
-
+#importanto biblioteca
 import os 
 
-
+#limpando o terminal
 os.system('cls')
 
 

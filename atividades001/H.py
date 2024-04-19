@@ -3,10 +3,10 @@
 #data:19/04/2024
 #atividade001 H-Faça um programa que receba um número inteiro, depois imprima sua tabuada de multiplicação.
 
-
+#importanto biblioteca
 import os 
 
-
+#limpando o terminal
 os.system('cls')
 
 print('-'*70)

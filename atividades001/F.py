@@ -3,10 +3,10 @@
 #data:19/04/2024
 #atividade001 F-Faça um programa que receba um número qualquer e calcule o dobro e o triplo desse número.
 
-
+#importanto biblioteca
 import os 
 
-
+#limpando o terminal
 os.system('cls')
 
 

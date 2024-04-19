@@ -3,9 +3,10 @@
 #data:19/04/2024
 #atividade001 G-Faça um programa que converta metros em centímetros e milímetros.
 
+#importanto biblioteca
 import os
 
-
+#limpando o terminal
 os.system('cls')
 
 

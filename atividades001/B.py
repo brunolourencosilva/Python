@@ -7,9 +7,11 @@
 # importando biblioteca
 import os
 
+
+# importando biblioteca datetime
 import datetime
 
-
+#limpando o terminal
 os.system('cls')
 
 

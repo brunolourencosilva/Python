@@ -3,11 +3,10 @@
 #data:19/04/2024
 #atividade001 I-Faça um programa que receba um valor em reais, depois calcule quantos dólares daria para comprar com esse valor.
 
-
+#importanto biblioteca
 import os 
 
-
-
+#limpando o terminal
 os.system('cls')
 
 print('-'*70)

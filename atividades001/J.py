@@ -3,9 +3,10 @@
 #data:19/04/2024
 #atividade001 J-Faça um programa com entrada de dados para calcular o perímetro de um retângulo.
 
+#importanto biblioteca
 import os
 
-
+#limpando o terminal
 os.system('cls')
 
 print('-'*70)

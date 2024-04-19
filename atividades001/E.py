@@ -3,9 +3,10 @@
 #data:19/04/2024
 #atividade001 E-Faça um programa que receba um número inteiro e mostre o sucessor e antecessor.
 
+#importanto biblioteca
 import os 
 
-
+#limpando o terminal
 os.system('cls')
 
 print('-'*70)

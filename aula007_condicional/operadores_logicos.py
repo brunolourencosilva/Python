@@ -18,11 +18,10 @@ valor = float(input('DIGITE UM NUMERO: '))
 resposta = ''
 
 #condicional
-if valor % 1 == 0:
-    valor = int(valor)
-    resposta = f'ENTRADA INCORRETA, O VALOR {valor} É UM INTEIRO!'
+if valor % 2 == 0:
+    resposta = f'ENTRADA INCORRETA, O VALOR {valor} É UM PAR!'
 else:
-    resposta = f'ENTRADA CORRETA, O VALOR {valor} É UM DECIMAL!'
+    resposta = f'ENTRADA CORRETA, O VALOR {valor} É UM IMPAR!'
     
 #saida
 print('='*70)

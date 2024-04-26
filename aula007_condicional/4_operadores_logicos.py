@@ -1,6 +1,6 @@
 #curso de desenvolvimento de sistema
 #autor:Bruno Lourenço
-#data:24/04/2024
+#data:25/04/2024
 #estudo de condicional: parte 4
 #operadores logicos
 

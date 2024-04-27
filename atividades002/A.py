@@ -1,6 +1,6 @@
 #curso de desenvolvimento de sistema
 #autor:Bruno Lourenço
-#data:25/04/2024
+#data:26/04/2024
 #atividade 002 Letra A
 
 import os 

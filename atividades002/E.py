@@ -16,12 +16,13 @@ print('='*70)
 #entrada
 distancia = float(input('INFORME A DISTANCIA DESEJADA: '))
 resposta = ''
+
 #processo
 valor1 = distancia * 0.70
 valor2 = distancia * 0.40
 
 #condicional
-if distancia < 200 and distancia == 200:
+if distancia <= 200:
    resposta = f'SUA VIAGEM CUSTARA ${valor1}'
 else:
     resposta = f'SUA VIAGEM CUSTARA ${valor2}'

@@ -3,7 +3,6 @@
 #data:26/04/2024
 #atividade 002 Letra D
 
-#DESENVOLVIMENTO AINDA!!!
 
 import os
 

@@ -16,6 +16,7 @@ print('='*70)
 
 #entrada de dados
 salario_atual = float(input('INFORME O SALARIO DO FUNCIONARIO: '))
+resposta = ''
 print('-'*70)
 
 #processo
@@ -26,9 +27,13 @@ aumento_2 = (10 / 100) * salario_atual
 apos_aumento_2 = aumento_2 + salario_atual
 
 #condicional
-if salario_atual > 1500.00:
-    print(f'SALARIO APÓS AUMENTO DE 5%: {apos_aumento_1}')
-elif salario_atual < 1000.00:
-    print(f'SALARIO APÓS AUMENTO DE 10%: {apos_aumento_2}')
+if salario_atual >= 1500.00:
+    resposta = f'SALARIO APÓS AUMENTO DE 5%: {apos_aumento_1}'
+elif salario_atual <= 1000.00:
+    resposta = f'SALARIO APÓS AUMENTO DE 10%: {apos_aumento_2}'
 else:
-    print(f'O SALARIO {salario_atual} INFORMADO ESTA ERRADO')
+    resposta = f'O SALARIO {salario_atual} INFORMADO ESTA ERRADO'
+
+#saida
+print(f'{resposta}')
+print('='*70)

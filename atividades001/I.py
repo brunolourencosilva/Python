@@ -20,7 +20,7 @@ print('-'*70)
 real = float(input('VALOR:'))
 
 #processo
-dolar = real * 0.19 
+dolar = real / 0.19 
 
 #saida
 print('-'*70)

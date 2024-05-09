@@ -40,9 +40,8 @@ else:
 print('-'*70)
 
 #valores iguais
-if (valor1 == valor2 and valor1 ==valor3 and valor2 == valor3):
+if (valor1 == valor2 and valor1 == valor3 and valor2 == valor3):
     print(f'OS VALORES {valor1}, {valor2} E {valor3} SÃO IGUAIS')
 else:
     print(f'OS VALORES {valor1}, {valor2} E {valor3} SÃO DIFERENTES' )
 print('='*70)
-

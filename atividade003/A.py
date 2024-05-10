@@ -23,12 +23,12 @@ arredondar_para_cima = math.ceil(raizQuadrada)
 arredondar_para_baixo = math.floor(raizQuadrada)
 
 #Condicional
-if valor < 0:
-    reposta = f'O VALOR {valor} É INVALIDO'
-else:
-    reposta = f'A raiz quadrada do valor {valor} é: {raizQuadrada}'
+ if raiz_quadrada % 1 == 0:
+        resposta =  f'Raiz quadrada é exata'
+    else:
+        resposta =  f'Raiz quadrada não é exata'
 
 # saida
-print(f'{reposta}')
+print(f'{resposta}')
 print(F'{arredondar_para_baixo}')
 print(f'{arredondar_para_cima}')

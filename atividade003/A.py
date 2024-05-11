@@ -19,16 +19,16 @@ print('.'*70)
 
 # processamento
 raizQuadrada = math.sqrt(valor)
-arredondar_para_cima = math.ceil(raizQuadrada)
-arredondar_para_baixo = math.floor(raizQuadrada)
+#arredondar_para_cima = math.ceil(raizQuadrada)
+##arredondar_para_baixo = math.floor(raizQuadrada)
 
 #Condicional
-if valor < 0:
+if raizQuadrada :
     reposta = f'O VALOR {valor} É INVALIDO'
 else:
     reposta = f'A raiz quadrada do valor {valor} é: {raizQuadrada}'
 
 # saida
 print(f'{reposta}')
-print(F'{arredondar_para_baixo}')
-print(f'{arredondar_para_cima}')
+#print(F'{arredondar_para_baixo}')
+#print(f'{arredondar_para_cima}')

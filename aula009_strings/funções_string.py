@@ -17,7 +17,7 @@ print(f'Frase original: {frase1}')
 print(f'Frase nova: {minusculas}')
 print('.'*70)
 
-maiusculas = frase1.upper() # Frtase em maiusculo
+maiusculas = frase1.upper() # Frase em maiusculo
 print(f'Frase original: {frase1}')
 print(f'Frase nova: {maiusculas}')
 print('.'*70)

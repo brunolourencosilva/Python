@@ -16,7 +16,7 @@ print('='*70)
 #entrada de dados
 nome = str(input('Informe o primeiro nome: '))
 sobrenome = str(input('Informe o sobrenome: '))
-ultimo_nome = str(input(' Informe o ultimo nome: '))
+ultimo_nome = str(input('Informe o ultimo nome: '))
 
 nome_completo = nome + sobrenome + ultimo_nome
 lista = nome_completo.split('-')

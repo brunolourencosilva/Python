@@ -17,5 +17,20 @@ print('='*70)
 #entrada
 numero = int(input('Insira um numero: '))
 
-#função
-#saida
+#condicional de validação
+if numero < 0:
+    resposta = 'Numero negativo não é permitido'
+    print(f'{resposta}')
+    print('='*70)
+else:
+    #processamento
+    unidade = numero % 10
+    dezena = (numero // 10) % 10
+    centena = (numero // 100) % 10
+    milhares = (numero // 1000) % 10
+    #saida
+    print(f'Unidade: {unidade}')
+    print(f'Dezena: {dezena}')
+    print(f'Centena: {centena}')
+    print(f'Milhares: {milhares}')
+    print('='*70)

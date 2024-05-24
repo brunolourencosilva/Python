@@ -18,6 +18,7 @@ nome = str(input('Informe o primeiro nome: '))
 sobrenome = str(input('Informe o sobrenome: '))
 ultimo_nome = str(input('Informe o ultimo nome: '))
 
-nome_completo = nome + sobrenome + ultimo_nome
-lista = nome_completo.split('-')
-print(f'Seu nome completo é {lista}')
+#processamento
+nome_completo = (nome) + (' ') + (sobrenome) + (' ') + (ultimo_nome)
+#saida
+print(f'Seu nome completo é {nome_completo}')

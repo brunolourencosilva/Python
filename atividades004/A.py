@@ -1,4 +1,4 @@
-#curso de desenvolvimento de sistema
+ #curso de desenvolvimento de sistema
 #autor:Bruno Lourenço
 #data:23/04/2024
 #atividade004 A-Faça um programa que solicite separadamente o nome, o nome do meio e o sobrenome de uma pessoa.
@@ -21,5 +21,4 @@ ultimo_nome = str(input('Informe o ultimo nome: '))
 #processamento
 nome_completo = (nome) + (' ') + (sobrenome) + (' ') + (ultimo_nome)
 
-#saida
-print(f'Seu nome completo é {nome_completo}')
+print(f'Nome completo: {nome_completo}')

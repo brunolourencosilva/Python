@@ -20,11 +20,9 @@ frase = 'Eu penso,logo eu sei'
 
 # fatiamento
 frase_fatiada = frase[:5]
-# função upper
+# funções
 maiuscula = frase.upper()
-# função lower
 minuscula = frase.lower()
-# função len
 quantidade_caracteres = len(frase)
 frase_fatiada_quantidade = len(frase_fatiada)
 
@@ -34,8 +32,7 @@ print(f'Frase em maiusculo: {maiuscula}')
 print('.'*70)
 print(f'Frase em minusculo: {minuscula}')
 print('.'*70)
-print(
-    F'Quantidade de caracteres na 2ª palavra na frase : {frase_fatiada_quantidade}')
+print(F'Quantidade de caracteres na 2ª palavra na frase : {frase_fatiada_quantidade}')
 print('.'*70)
 print(F'Quantidade de caracteres na frase: {quantidade_caracteres}')
 print('='*70)

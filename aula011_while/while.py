@@ -12,7 +12,7 @@ contador = 1
 while contador <= 10:
     print(f'contando...{contador}')
 
-    # contaador += <=> contador = contador + 1
+    # contador += <=> contador = contador + 1
     contador += 1
 
 print('Fim do programa!\n')

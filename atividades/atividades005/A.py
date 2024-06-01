@@ -11,10 +11,11 @@ os.system('cls')
 
 print('-'*70)
 print('Programa que imprima os números no intervalo entre 1 e 100')
-print('='*70)
+print('='*70) 
 
-contador = 1
+contador = 0
+numero_final = 10
 
 while contador <= 100:
-    print(f'contando...{contador}')
+    print(f'numero: {contador}', end=' | ')
     contador += 1

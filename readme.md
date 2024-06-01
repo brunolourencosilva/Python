@@ -1,2 +1,1 @@
-Esse é um repositorio para aulas e atividades de desenvolvimento de sistemas
-E tambem serve como portifolio para mostrar algumas coisas que foram aprendidas durante o curso
+"Uma flecha sozinha pode ser facilmente quebrada, mas muitas flechas são indestrutíveis"-Gengis Khan

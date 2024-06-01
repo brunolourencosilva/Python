@@ -12,7 +12,7 @@ print()
 for c in range(1, 11):
     if c == 5:
         #5 esta fora do loop, se retirar a linha abaxio,
-        #ele não aparecera na saida< daixei para verificação!!
+        #ele não aparecera na saida< deixei para verificação!!
         print(f'O numero {c} esta fora do loop')
         continue
     

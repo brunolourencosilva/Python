@@ -23,7 +23,7 @@ ignorar3 = int(input("Digite o 3º número que sera ignorado: "))
 print('-'*70)
 
 #declaração
-contador = inicio
+contador = inicio 
 
 #saida
 while contador <= fim:

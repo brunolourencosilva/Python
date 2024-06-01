@@ -19,6 +19,7 @@ while(True):
      #entrada de dados
     letra = str(input('Digite a letra "F" para parar o loop: ')).lower()  #entrada de dados
     
+    #condicional e saida
     if (letra != 'f'):
         print('letra "F" não foi digitada,o loop continuara')
         print('.'*70)

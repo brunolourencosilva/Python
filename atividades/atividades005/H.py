@@ -1,6 +1,6 @@
 #curso de desenvolvimento de sistema
 #autor:Bruno Lourenço
-#data:31/04/2024
+#data:3/06/2024
 #atividade005 H-Faça um programa que imprima os valores no intervalo definidos pelo usuário.
 #Defina 3 números que deverão ser ignorados, ou seja, que não serão impressos na tela.
 

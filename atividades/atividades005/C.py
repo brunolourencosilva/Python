@@ -12,6 +12,7 @@ print('-'*70)
 print('Programa que imprima os números no intervalo entre 1 e 10 em ordem decrescente')
 print('='*70) 
 
+#entrada
 inicio = 1
 fim = 10
 contador = inicio

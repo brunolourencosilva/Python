@@ -2,7 +2,7 @@
 #autor:Bruno Lourenço
 #data:31/04/2024
 #atividade005 B-Evolua o programa anterior para um código que pergunte ao 
-#usuário qual o intervalo que ele deseja ver  impresso.
+#usuário qual o intervalo que ele deseja ver impresso.
 
 import os
 

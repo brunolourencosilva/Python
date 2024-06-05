@@ -1,7 +1,7 @@
 # curso de desenvolvimento de sistema
 # autor:Bruno Lourenço
 # data:23/04/2024
-# atividade004 I-Faça um programa que receba o nome completo de uma pessoa e, em seguida, mostre o primeiro e o último nome.
+# atividade004 I-Faça um programa que receba o nome completo de uma pessoa e,em seguida, mostre o primeiro e o último nome.
 
 import os
 

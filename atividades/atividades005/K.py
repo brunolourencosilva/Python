@@ -10,5 +10,20 @@ import os
 os.system('cls')
 
 print('-'*70)
-print('Programa que pede que o usuário digite um nome ou uma frase')
+print('Verificador que fala se a frase é um palíndromo ou não')
 print('='*70)
+
+#entrada
+nome = input('Digite uma frase: ')
+print('-'*70)
+#invertendo a frase
+frase_inversa = nome[::-1]
+
+#condicional
+if nome == frase_inversa:
+    reposta = f'Essa frase é um palíndromo!!\n{nome} | {frase_inversa}'
+else:
+    reposta = f'Essa frase não é um palíndromo!!'
+    
+#saida
+print(f'{reposta}')

@@ -4,6 +4,30 @@ import os
 os.system('cls')
 
 print('-'*70)
+print('Programa que realiza a contagem de 1 até 100 com pula linha')
+print('='*70)
+
+contador = 0  # flag
+pula_linha = 0
+while contador <= 100:
+    
+    contador += 1
+    pula_linha += 1
+    if (contador % 2 == 0):
+        continue
+    print(f'{contador}', end=' | ')
+
+else:
+    contador -= 1
+    print(''*70)
+    print('-'*70)
+    print(f'Quantidade de numero impares: {contador}')
+    
+
+
+# Programa que calcule os números primos em um \nintervalo pré-determinado pelo usuário
+
+'''print('-'*70)
 print('Programa que calcule os números primos em um \nintervalo pré-determinado pelo usuário')
 print('='*70)
 
@@ -29,4 +53,4 @@ for numero_primo in range(inicio,fim):
             print(f'{numero_primo}', end=' | ')
 
 print()
-print('-'*70)
+print('-'*70)'''

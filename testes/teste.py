@@ -8,11 +8,9 @@ print('Programa que realiza a contagem de 1 até 100 com pula linha')
 print('='*70)
 
 contador = 0  # flag
-pula_linha = 0
 while contador <= 100:
     
     contador += 1
-    pula_linha += 1
     if (contador % 2 == 0):
         continue
     print(f'{contador}', end=' | ')

@@ -18,7 +18,7 @@ contador = 0  # flag
 
 while contador <= 100:
     contador += 1
-    if (contador % 2 == 0):
+    if (contador % 2 == 0): #pulando pares
         continue
     print(f'{contador}')
 else:

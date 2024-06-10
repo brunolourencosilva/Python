@@ -23,7 +23,7 @@ else:
     
 
 
-# Programa que calcule os números primos em um \nintervalo pré-determinado pelo usuário
+# Programa que calcule os números primos em um intervalo pré-determinado pelo usuário
 
 '''print('-'*70)
 print('Programa que calcule os números primos em um \nintervalo pré-determinado pelo usuário')

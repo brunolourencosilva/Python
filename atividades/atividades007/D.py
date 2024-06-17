@@ -1,7 +1,7 @@
 # curso de desenvolvimento de sistema
 # autor:Bruno Lourenço
 # data:17/06/2024
-# atividade006 D-Utilizando o exercício anterior, coloque todas as listas em ordem crescente de valor
+# atividade007 D-Utilizando o exercício anterior, coloque todas as listas em ordem crescente de valor
 import os
 
 

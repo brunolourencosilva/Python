@@ -1,7 +1,7 @@
 # curso de desenvolvimento de sistema
 # autor:Bruno Lourenço
 # data:17/06/2024
-# atividade006 G-Faça um programa que gere 10 números aleatórios. Após gerar esses números, crie duas listas novas com ordenação ascendente e descendente.
+# atividade007 G-Faça um programa que gere 10 números aleatórios. Após gerar esses números, crie duas listas novas com ordenação ascendente e descendente.
 import os
 
 

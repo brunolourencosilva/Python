@@ -1,7 +1,7 @@
 # curso de desenvolvimento de sistema
 # autor:Bruno Lourenço
 # data:17/06/2024
-# atividade006 E-Crie uma lista com 6 nomes, depois verifique se o nome ‘Pedro’ está nessa lista.
+# atividade007 E-Crie uma lista com 6 nomes, depois verifique se o nome ‘Pedro’ está nessa lista.
 import os
 
 

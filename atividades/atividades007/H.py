@@ -1,7 +1,7 @@
 # curso de desenvolvimento de sistema
 # autor:Bruno Lourenço
 # data:17/06/2024
-# atividade006 H-Faça um programa que sorteia os números da Mega Sena e da Lotofácil
+# atividade007 H-Faça um programa que sorteia os números da Mega Sena e da Lotofácil
 import os
 
 

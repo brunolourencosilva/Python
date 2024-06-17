@@ -1,7 +1,7 @@
 # curso de desenvolvimento de sistema
 # autor:Bruno Lourenço
 # data:17/06/2024
-# atividade006 B-Após esta entrada de dados, faça o seguinte:
+# atividade007 B-Após esta entrada de dados, faça o seguinte:
 #• Mostre a quantidade de notas que foram lidas.
 #• Exiba todas as notas na ordem em que foram informadas.
 #• Exiba todas as notas na ordem inversa à que foram informadas, uma abaixo da outra.

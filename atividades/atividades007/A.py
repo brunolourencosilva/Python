@@ -15,10 +15,12 @@ print('='*70)
 lista_notas = []
 
 while True:
-    notas = str(input('informe a nota: '))
-    verificação = input('Continuar?(pressione "s" ou "0" para sair): '.lower())
+    print(f'Numeros das notas guardados: {lista_notas}')
+    notas = str(input('informe a nota(pressione "s" ou "0" para sair): '.lower()))
     lista_notas.append(notas)
-    if verificação == 's':
-        continue
-    else:
+    if notas == 's':
         break
+    elif notas == '0':
+        break
+    else:
+        continue

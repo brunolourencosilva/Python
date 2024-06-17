@@ -78,7 +78,3 @@ print('.'*70)
 lista_reversa.reverse()
 print(f'Lista revertida: {lista_reversa}')
 print('.'*70)
-
-#O produto dos intervalos 5-6 por 11-12
-lista_multiplicando = lista[5:6]
-lista_multiplicador = lista[11:12]

@@ -22,12 +22,10 @@ print('='*70)
 
 #Criando uma lista
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-
+produto = []
 #Declaração
-#Os números ímpares
-numeros_impares = 0 
-#Os números pares
-numero_pares = 0
+numeros_impares = 0 #Os números ímpares
+numero_pares = 0    #Os números pares
 #Os múltiplos de 2, 3 e 4
 multiplos_de_2 = 0
 multiplos_de_3 = 0
@@ -50,15 +48,13 @@ while numeros_impares <= 15:
 else:
     numeros_impares -= 1
     print('')
-    print('.'*70)
-    
+    print('.'*70)  
 print('Numeros pares: ')#Os números pares
 while numero_pares <= 15:
     numero_pares += 1
     if numero_pares % 2 != 0: #pulando os impares
         continue
-    print(f'{numero_pares}', end=('|'))
-    
+    print(f'{numero_pares}', end=('|'))  
 else:
     numero_pares -= 1
     print('')
@@ -74,7 +70,16 @@ print("Múltiplos de 3:", multiplos_de_3)
 print("Múltiplos de 4:", multiplos_de_4)
 print('.'*70)
 
+for num in lista[4:6]:
+    for num_b in lista[10:12]:
+        num_c = num * num_b
+        produto.append(num_c)
+print(f'Produto dos intervalos 5:6 e 11:12: {produto}')
+print('.'*70)
+
 #Revertendo a lista
+lista_reversa = lista.copy()
 lista_reversa.reverse()
 print(f'Lista revertida: {lista_reversa}')
 print('.'*70)
+

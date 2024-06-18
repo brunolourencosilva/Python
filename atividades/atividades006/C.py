@@ -82,4 +82,3 @@ lista_reversa = lista.copy()
 lista_reversa.reverse()
 print(f'Lista revertida: {lista_reversa}')
 print('.'*70)
-

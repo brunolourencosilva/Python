@@ -24,6 +24,6 @@ if nome == frase_inversa:
     reposta = f'Essa frase é um palíndromo!!\n{nome} | {frase_inversa}'
 else:
     reposta = f'Essa frase não é um palíndromo!!'
-    
+
 #saida
 print(f'{reposta}')

@@ -33,5 +33,5 @@ while (True):
         print('Voce digitou a senha certa')
         print('Agora voce pode acessar seus dados')
         break
-    
+
 print('-'*70)

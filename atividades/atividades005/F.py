@@ -14,7 +14,7 @@ print('Programa que imprime os números primos entre 0 e 100.')
 print('='*70)
 
 #declaração
-inicio = 2
+inicio = 3
 fim = 100
 contador = inicio
 

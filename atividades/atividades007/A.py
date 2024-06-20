@@ -46,5 +46,5 @@ while True:
         print('lista de notas revertidas:')#.........................Imprimindo a lista de nota invertida
         lista_notas.reverse()
         for notas in lista_notas:#...................................Imprimindo as notas invertidade uma embaixo da outra
-            print(notas)
+            print(f'{notas}',end=('|'))
         continue

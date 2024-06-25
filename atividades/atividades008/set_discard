@@ -1,0 +1,41 @@
+# Trsabalho sobre a estrutura de dados set
+# Senac Minas Gerais/Juiz de fora
+# Aluno: Bruno Lourenço da Silva
+# Turma: 0152
+# Ano: 2024
+
+# Discard(elemento): Remove um elemento do set se ele estiver presente.
+# Não faz nada se o elemento não estiver presente.
+
+import os
+import time # Importando a biblioteca time para usar a função sleep
+
+conjunto  = {1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10}
+
+while True:
+    os.system('cls')
+
+    print('-'*70)
+    print('Removendo um elemento de um set')
+    print('='*70)
+
+    # Mostrando o conjunto inicial
+    print(f"Conjunto inicial: {conjunto}")
+
+    # Solicitando ao usuário que insira o número a ser removido
+    elemento = int(input("Digite o número que você deseja remover do conjunto (0 para sair): "))
+    
+    if elemento == 0: # Quebrando o loop
+        print('-'*70)
+        print('Programa encerrado!!!')
+        print('-'*70)
+        break
+    
+    elif elemento in conjunto: # Verificando se o elemento inserido pelo usuario esta no conjunto
+        conjunto.discard(elemento) # Removendo o número especificado pelo usuário do conjunto
+        
+    else: # Avisando que o elemento mencionado não foi encontrado ou é invalido
+        print('-'*70)
+        print('O elemento não foi encontrado ou valor invalido!!')
+        print('-'*70)
+        time.sleep(2)

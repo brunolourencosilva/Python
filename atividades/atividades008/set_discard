@@ -23,16 +23,26 @@ while True:
     print(f"Conjunto inicial: {conjunto}")
 
     # Solicitando ao usuário que insira o número a ser removido
-    elemento = int(input("Digite o número que você deseja remover do conjunto (0 para sair): "))
+    entrada  = (input("Digite o número que você deseja remover do conjunto (0 para sair): "))
     
-    if elemento == 0: # Quebrando o loop
-        print('-'*70)
-        print('Programa encerrado!!!')
-        print('-'*70)
-        break
+    # Verifica se a entrada é um número inteiro válido
+    if entrada.isdigit():
+        elemento = int(entrada) # Converte a entrada para um número inteiro
+        
+        if elemento == 0: # Quebrando o loop
+            print('-'*70)
+            print('Programa encerrado!!!')
+            print('-'*70)
+            break
     
-    elif elemento in conjunto: # Verificando se o elemento inserido pelo usuario esta no conjunto
-        conjunto.discard(elemento) # Removendo o número especificado pelo usuário do conjunto
+        elif elemento in conjunto: # Verificando se o elemento inserido pelo usuario esta no conjunto
+            conjunto.discard(elemento) # Removendo o número especificado pelo usuário do conjunto
+        
+        else: # Avisando que o elemento mencionado não foi encontrado ou é invalido
+            print('-'*70)
+            print('O elemento não foi encontrado ou valor invalido!!')
+            print('-'*70)
+            time.sleep(2)
         
     else: # Avisando que o elemento mencionado não foi encontrado ou é invalido
         print('-'*70)

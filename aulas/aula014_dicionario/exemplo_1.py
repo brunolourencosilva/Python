@@ -29,7 +29,6 @@ print()
 # For aninhada para pecorrer a lista e o dicionario
 print('Detalhes do elemento:')
 for elemento in periodica: # Para cada elemento no lista
-    for chave, valor in elemento.items(): # Para cada chave e valor do dicionario
-        print(f'{chave.capitalize()}: {valor}') # Imprime a chave e o valor de maneira legivel
-    print('-'*70) # Linha separadora entre elementos
-    
+    for chave, valor in elemento.items(): # Para cada chave e
+        print(f'{chave.capitalize()}: {valor}')
+    print('-'*70)

@@ -24,11 +24,12 @@ for i in range(4):
     simbolo = str(input('Simbolo do elemento: '))
     print('.'*70)
     
-    elementos['nome'] = nome
-    elementos['simbolo'] = simbolo
+    elementos['nome'] = nome  # Adiciona o nome do elemento ao dicionário
+    elementos['simbolo'] = simbolo   # Adiciona o símbolo do elemento ao dicionário
 
-    periodica.append(elementos.copy())
+    periodica.append(elementos.copy())  # Adiciona uma cópia do dicionário 'elementos' à lista 'periodica
 
+# Imprimindo os elementos adicionados
 print('-'*70)    
 print('Elementos adicionados: ')   
 for elementos in periodica:

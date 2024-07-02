@@ -15,6 +15,7 @@ print('-'*70)
 
 # Declaração de dicionario
 elementos = {}
+
 # Declaração de lista
 periodica = []
 
@@ -35,7 +36,7 @@ while True:
     opcao = int(input('Escolha uma opção: '))
     
 
-    if opcao == 1: # Se a opção escolhida for 1,ele pedira pra entrar com os dados dos elementos
+    if opcao == 1: # entrada com os dados dos elementos
         os.system('cls')
         contagem += 1
         print('.'*70)
@@ -76,10 +77,10 @@ while True:
             print('-'*70)
             print('Elementos adicionados: ')
             print('-'*70)
-            for elementos in periodica: # Imprimindo os elementos dentro do dicionario
-                for chave, valor in elementos.items():
-                    print(f'{chave}: {valor}')
-                print('-'*70)
+            # Imprimindo os elementos dentro do dicionario
+            for chave, valor in elementos.items():
+                print(f'{chave}: {valor}')
+            print('-'*70)
                 
             input('\nPressione Enter para continuar...')
             print('.'*70)
@@ -94,10 +95,9 @@ while True:
         os.system('cls')
         print('Elementos adicionados: ')
         print('-'*70)
-        for elementos in periodica: # Imprimindo os elementos dentro do dicionario
-                for chave, valor in elementos.items():
-                    print(f'{chave}: {valor}')
-                print('-'*70)
+        for chave, valor in elementos.items():
+            print(f'{chave}: {valor}')
+        print('-'*70)
         print('Fim do programa!!')
         print('-'*35)
         break

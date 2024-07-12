@@ -8,3 +8,24 @@ import os
 
 
 os.system('cls')
+
+dicionario = []
+
+def dados(cadastro):
+    dicionario.append(nome)
+    dicionario.append(matricula)
+    dicionario.append(data_nascimento)
+    
+    for i in dicionario:
+        print(i)
+    print('-'*70)
+    
+    return cadastro
+
+print('Dados do aluno')
+nome = input('Nome: ')
+matricula = input('Matricula: ')
+data_nascimento = input('Data de nascimento: ')
+print('-'*70)
+
+dados(cadastro=0)

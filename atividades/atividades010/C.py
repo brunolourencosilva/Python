@@ -7,51 +7,61 @@
 
 import os
 
-
 os.system('cls')
 
+# Dicionário para armazenar os dados dos alunos
 dicionario = {}
 
-def dados(cadastro):
+def cadastrar_aluno(nome, matricula, data_nascimento):
+    """
+    Cadastra um novo aluno no dicionário.
     
+    Args:
+        nome (str): Nome do aluno a ser cadastrado.
+        matricula (str): Matrícula do aluno a ser cadastrado.
+        data_nascimento (str): Data de nascimento do aluno a ser cadastrado.
+    """
     dicionario['Nome'] = nome
     dicionario['Matricula'] = matricula
     dicionario['Data de nascimento'] = data_nascimento
-    
-    if verificar_aluno in dicionario:
-        for i in dicionario:
-            print(i)
+    print('Aluno cadastrado com sucesso!')
+
+def verificar_aluno(nome):
+    """
+    Verifica se um aluno está cadastrado e imprime seus dados.
+
+    Args:
+        nome (str): Nome do aluno a ser verificado.
+    """
+    if dicionario.get('Nome') == nome:
+        for chave, valor in dicionario.items():
+            print(f"{chave}: {valor}")
     else:
-         print(f'O nome {verificar_aluno} não esta no sistema')   
-    return cadastro
+        print(f'O nome {nome} não está no sistema')
 
 while True:
     os.system('cls')
-    print('-'*70)
+    print('-' * 70)
     print('SISTEMA ESCOLAR')
-    print('1-CADASTRAR ALUNO')
-    print('2-PROCURAR DADOS DO ALUNO')
-    print('-'*70)
+    print('1 - CADASTRAR ALUNO')
+    print('2 - PROCURAR DADOS DO ALUNO')
+    print('-' * 70)
     escolha = input('Escolha uma opção: ')
     
     if escolha == '1':
-        
         print('Dados do aluno')
         nome = input('Nome: ')
-        matricula = input('Matricula: ')
+        matricula = input('Matrícula: ')
         data_nascimento = input('Data de nascimento: ')
-        print('-'*70)
-        
+        cadastrar_aluno(nome, matricula, data_nascimento)
+        print('-' * 70)
         input('Pressione qualquer tecla para voltar')
-        os.system('cls')
         
     elif escolha == '2':
-        verificar_aluno = input('Nome do aluno que deseja procurar sobre: ')
-        dados(cadastro=0)
-        
+        verificar_nome = input('Nome do aluno que deseja procurar: ')
+        verificar_aluno(verificar_nome)
         input('Pressione qualquer tecla para voltar')
-        os.system('cls')
+        
     else:
-        print('Opção não encontrada!!')
-        input('Pressione qualquer tecla para Continuar')
-        os.system('cls')
+        print('Opção não encontrada!')
+        input('Pressione qualquer tecla para continuar')

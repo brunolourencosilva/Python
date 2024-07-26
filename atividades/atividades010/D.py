@@ -9,6 +9,14 @@ import os
 os.system('cls')
 
 def f_para_c(farenheit):
+    """Função que muda fahrenheit para célsius
+
+    Args:
+        farenheit (float): A temperatura em fahrenheit
+
+    Returns:
+        _float_:retorna o valor em graus celsius 
+    """    
     temperatura_celsius = (farenheit - 32) * 5/9
     return temperatura_celsius
 

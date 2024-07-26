@@ -11,21 +11,27 @@ os.system('cls')
 
 dicionario = []
 
-def dados(cadastro):
-    dicionario.append(nome)
-    dicionario.append(matricula)
-    dicionario.append(data_nascimento)
+def cadastrar_aluno(nome, matricula, data_nascimento):
+    """
+    Cadastra um novo aluno no dicionário.
     
-    for i in dicionario:
-        print(i)
-    print('-'*70)
-    
-    return cadastro
+    Args:
+        nome (str): Nome do aluno a ser cadastrado.
+        matricula (str): Matrícula do aluno a ser cadastrado.
+        data_nascimento (str): Data de nascimento do aluno a ser cadastrado.
+    """
+    dicionario['Nome'] = nome
+    dicionario['Matricula'] = matricula
+    dicionario['Data de nascimento'] = data_nascimento
+    print('Aluno cadastrado com sucesso!')
 
 print('Dados do aluno')
 nome = input('Nome: ')
-matricula = input('Matricula: ')
+matricula = input('Matrícula: ')
 data_nascimento = input('Data de nascimento: ')
-print('-'*70)
-
-dados(cadastro=0)
+cadastrar_aluno(nome, matricula, data_nascimento)
+print('-' * 70)
+input('Pressione qualquer tecla para voltar')
+        
+for chave, valor in dicionario.items():
+    print(f"{chave}: {valor}")

@@ -11,3 +11,27 @@ import os
 
 
 os.system('cls')
+
+def criar_dicionario(lista_chaves, lista_valores):
+    """
+    Cria um dicionário a partir de duas listas, uma contendo as chaves e outra os valores.
+
+    Args:
+        lista_chaves (list): Lista contendo as chaves do dicionário.
+        lista_valores (list): Lista contendo os valores do dicionário.
+
+    Returns:
+        dict: Dicionário criado a partir das duas listas.
+    """
+    dicionario = dict(zip(lista_chaves, lista_valores))
+    return dicionario
+
+lista_chaves = ['nome', 'peso', 'altura']
+lista_valores = ['John', 40, 1.8]
+
+# Criação do dicionário
+dicionario = criar_dicionario(lista_chaves, lista_valores)
+
+# Impressão do dicionário usando uma estrutura de repetição for
+for chave, valor in dicionario.items():
+    print(f"{chave}: {valor}")

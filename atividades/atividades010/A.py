@@ -33,12 +33,11 @@ def pares_impares(lista):
             lista_impares.append(impares)
             quantidade_impares = len(lista_impares)
             
-    print(f'Pares: {lista_pares}')
-    print(f'Quantidade de pares: {quantidade_pares}')
-    print('-'*70)
-    print(f'Impares: {lista_impares}')
-    print(f'Quantidade de impares: {quantidade_impares}')
-
-    return lista
+    return lista,quantidade_impares,quantidade_pares
 
 pares_impares(lista)
+print(f'Pares: {lista_pares}')
+print(f'Quantidade de pares: {lista_pares}')
+print('-'*70)
+print(f'Impares: {lista_impares}')
+print(f'Quantidade de impares: {lista_impares}')

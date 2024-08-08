@@ -11,13 +11,13 @@ import os
 os.system('cls')
 
 def pares_impares(lista):
-    """Verificando se o numero é par ou impar, e colocando dentro de uma lista
+    """Verificando se o número é par ou ímpar, e colocando dentro de uma lista
 
     Args:
         lista (list): Lista de números
 
     Returns:
-        tuple: Retorna uma tupla contendo as listas de pares, ímpares, quantidade de pares e quantidade de ímpares
+        list: Retorna as listas de pares, ímpares, quantidade de pares e quantidade de ímpares
     """
     lista_pares = []
     lista_impares = []

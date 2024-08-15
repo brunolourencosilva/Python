@@ -6,26 +6,26 @@ lista = [
     {'Nome':'Agata','Telefone': '(32)99196-0000', 'Cidade': 'Juiz de fora'},
     {'Nome':'Bia','Telefone': '(32)99196-1111', 'Cidade': 'Juiz de fora'},
     {'Nome':'Coly','Telefone': '(32)99196-2222', 'Cidade': 'Juiz de fora'},
-    {'Nome':'Isis','Telefone': '(32)99196-3333', 'Cidade': 'Juiz de fora'}
+    {'Nome':'Isis','Telefone': '(32)99196-3333', 'Cidade': 'Juiz de fora'},
 ]
 
 # Caminho para a pasta onde  o arquivo csv sera salvo
-pasta = 'arquivos_csv/gravacao/'
+pasta = 'aulas/aula018_arquivos'
 
 # Verificando se a pasta existe, se não,ira cria-la
 os.makedirs(pasta, exist_ok=True)
 
 # Nome para o arquivo csv para gravar as informações
-arquivos = 'arquivos_csv/gravacao/alunas.csv'
+arquivo = 'aulas/aula018_arquivos/alunas.csv'
 
 # Caminho completo do arquivo csv
-caminho_arquivo = os.path.join(pasta, arquivos)
+caminho_arquivo = os.path.join(pasta, arquivo)
 
 # Abre o arquivo 'arquivo' no modo de escrita ('w').
 # Se o arquivo não existir,ele sera criado; se exixstir, sera truncado (esvaziado).
 # Newline='' : Evita a adição de linhas em brancos extras ao gravar o arquivo em algumas plataforma.
 # As arquivos_csv: Atribui o objeto arquivos ao 'arquivos_csv' para ser usado dentro do bloco with.
-with open(arquivos, 'w', newline='') as arquivo_csv:
+with open(arquivo, 'w', newline='') as arquivo_csv:
     
     # Campos = ["name", "telefone", "cidade"]: Define a lista de nomes de campos
     # (cabeçalhos das colunas do csv).
@@ -47,4 +47,4 @@ with open(arquivos, 'w', newline='') as arquivo_csv:
 
 os.system('cls')
 # Exibe um mensagem indicando que o arquivo foi gravado com sucesso
-print(f'Arquivos {arquivos} gravado com sucesso')
+print(f'Arquivos {arquivo} gravado com sucesso')

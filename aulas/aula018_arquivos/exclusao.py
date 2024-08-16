@@ -13,7 +13,7 @@ with open(arquivo, 'r') as arquivo_csv:
     cadastro = list(leitura)
     
 # Verificando se o nome existe e apagando o registro
-apagado = False
+apagando = False
 novo_cadastro = [registro for registro in cadastro \
                 if registro['Nome'] != nome_para_apagar]
 

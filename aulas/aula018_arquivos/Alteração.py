@@ -33,7 +33,6 @@ for registro in cadastro:
         alterado = True
 
 # Reescrevendo o arquivo com os dados atualizados
-# if alterado:
 with open(arquivo, 'w', newline='') as arquivo_csv:
     campos = ['Nome', 'Telefone', 'Cidade']
     escrever = csv.DictWriter(arquivo_csv, fieldnames=campos, delimiter=';')

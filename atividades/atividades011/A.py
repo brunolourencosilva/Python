@@ -41,9 +41,13 @@ while True:
         
     if escolha == 'somar':
         print(f'As somas dos numeros são {resultado.soma(a,b,c)}')
+        input('Enter para continuar')
+        os.system('cls')
 
     elif escolha == 'multiplicar':
         print(f'As somas dos numeros são {resultado.mult(a,b,c)}')
+        input('Enter para continuar')
+        os.system('cls')
 
     else:
         input('Opção inexistente!! Enter para continuar')

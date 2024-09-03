@@ -7,7 +7,7 @@ import os
 
 os.system('cls')
 
-class calcular:
+class Calcular:
     def __init__(self, nota1, nota2, nota3, nota4):
         self.nota1 = nota1
         self.nota2 = nota2
@@ -27,7 +27,7 @@ nota2 = float(input('2ª nota: '))
 nota3 = float(input('3ª nota: '))
 nota4 = float(input('4ª nota: '))
 
-resultado = calcular(nota1, nota2, nota3, nota4)
+resultado = Calcular(nota1, nota2, nota3, nota4)
 
 print('-'*70)
 print('-----NOTAS------------')

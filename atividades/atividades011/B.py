@@ -8,7 +8,7 @@ import datetime
 
 os.system('cls')
 
-class calcular:
+class Calcular:
     def __init__(self,ano_nascimento):
         self.ano_nascimento = ano_nascimento
         
@@ -23,7 +23,7 @@ print('-'*70)
 print('INFORME SUA IDADE')
 ano_nascimento = int(input('ANO DE NASCIMENTO: '))
 
-resultado = calcular(ano_nascimento)
+resultado = Calcular(ano_nascimento)
 
 print('-'*70)
 print(f'VOCE TEM {resultado.idade(ano_nascimento)} ANOS DE IDADE!!!')

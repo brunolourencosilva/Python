@@ -34,8 +34,10 @@ while True:
         
     elif ano_nascimento > 0:
         resultado = Calcular(ano_nascimento)
+        idade_atual = resultado.idade(ano_nascimento)
+        
         print('-'*70)
-        print(f'VOCE TEM {resultado.idade(ano_nascimento)} ANOS DE IDADE!!!')
+        print(f'VOCE TEM {idade_atual} ANOS DE IDADE!!!')
         input('Pressione Enter para continuar')
         os.system('cls')
             

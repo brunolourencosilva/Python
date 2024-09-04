@@ -19,58 +19,33 @@ class Calcular:
  
         return media
     
-    # def validacao(self,nota1, nota2, nota3, nota4):
-        
-    #     for i in range(0,4):
-    #         if nota1 < 0 or nota2 < 0 or nota3 < 0 or nota4 < 0:
-    #             print(f'{i}ª nota invalida!!!! ')
-    #             input('Pressione Enter para continuar')
-    #             os.system('cls')
-            
-    #         elif nota1 >= 0 or nota2 >= 0 or nota3 >= 0 or nota4 >= 0:
-            
-    #             resultado = Calcular(nota1, nota2, nota3, nota4)
-    #             media = resultado.media_notas(nota1, nota2, nota3, nota4)
-            
    
-# print('-'*70)
-# print('INFORME AS NOTAS')
-# nota1 = float(input('1ª nota: '))
-# nota2 = float(input('2ª nota: '))
-# nota3 = float(input('3ª nota: '))
-# nota4 = float(input('4ª nota: '))
+print('-'*70)
+print('INFORME AS NOTAS')
+nota1 = float(input('1ª nota: '))
+nota2 = float(input('2ª nota: '))
+nota3 = float(input('3ª nota: '))
+nota4 = float(input('4ª nota: '))
 
-for i in range(4):
-    i += 1
-    nota = float(input(f'{i}ª nota: '))
-    
-    if nota < 0 :
-        print(f'{i}ª nota invalida!!!! ')
+for i in range(0,4):
+    if nota1 < 0 or nota2 < 0 or nota3 < 0 or nota4 < 0:
+        print(f'Nota invalida!!!! ')
         input('Pressione Enter para continuar')
         os.system('cls')
             
-    elif nota>= 0 :
+    elif nota1 >= 0 or nota2 >= 0 or nota3 >= 0 or nota4 >= 0:
             
         resultado = Calcular(nota1, nota2, nota3, nota4)
         media = resultado.media_notas(nota1, nota2, nota3, nota4)
-    # if nota1 < 0 or nota2 < 0 or nota3 < 0 or nota4 < 0:
-# print('Entrada invalida!!!!')
-# input('Pressione Enter para continuar')
-# os.system('cls')
-        
-    # elif nota1 >= 0 or nota2 >= 0 or nota3 >= 0 or nota4 >= 0:
+
         
 resultado = Calcular(nota1, nota2, nota3, nota4)
 media = resultado.media_notas(nota1, nota2, nota3, nota4)
         
-# print('-'*70)
-# print('-----NOTAS------------')
-# print(f'1ª NOTA: {nota1} | 2ª NOTA: {nota2}'
-#     F'3ª NOTA: {nota3} | 4ª NOTA: {nota4}')
-# print('-'*70)
-# print(f'MEDIA: {media}')
+print('-'*70)
+print('-----NOTAS------------')
+print(f'1ª NOTA: {nota1} | 2ª NOTA: {nota2}'
+    F'3ª NOTA: {nota3} | 4ª NOTA: {nota4}')
+print('-'*70)
+print(f'MEDIA: {media}')
     
-#     # else:
-# print('Entrada invalida!!!!')
-# input('Pressione Enter para continuar')
-# os.system('cls')

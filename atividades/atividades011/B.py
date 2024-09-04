@@ -13,17 +13,33 @@ class Calcular:
         self.ano_nascimento = ano_nascimento
         
     def idade(self,ano_nascimento):
-        ano_atual = datetime.datetime.now().year
-        idade_atual = int(ano_atual) - ano_nascimento
         
-        return idade_atual
+        while True:
+            
+            ano_atual = datetime.datetime.now().year
+            idade_atual = int(ano_atual) - ano_nascimento
+            return idade_atual
 
 
-print('-'*70)
-print('INFORME SUA IDADE')
-ano_nascimento = int(input('ANO DE NASCIMENTO: '))
-
-resultado = Calcular(ano_nascimento)
-
-print('-'*70)
-print(f'VOCE TEM {resultado.idade(ano_nascimento)} ANOS DE IDADE!!!')
+while True:
+    os.system('cls')
+    print('-'*70)
+    print('INFORME SUA IDADE')
+    ano_nascimento = int(input('ANO DE NASCIMENTO: '))
+    
+    if ano_nascimento < 0:
+        print('Entrada invalida!!!!')
+        input('Pressione Enter para continuar')
+        os.system('cls')
+        
+    elif ano_nascimento > 0:
+        resultado = Calcular(ano_nascimento)
+        print('-'*70)
+        print(f'VOCE TEM {resultado.idade(ano_nascimento)} ANOS DE IDADE!!!')
+        input('Pressione Enter para continuar')
+        os.system('cls')
+            
+    else:
+        print('Entrada invalida!!!!')
+        input('Pressione Enter para continuar')
+        os.system('cls')

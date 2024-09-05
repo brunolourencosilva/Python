@@ -13,7 +13,7 @@ class Calcular:
         self.nota2 = nota2
         self.nota3 = nota3
         self.nota4 = nota4
-        
+     
     def media_notas(self,nota1, nota2, nota3, nota4):
         media = (nota1 + nota2 + nota3 + nota4) / 4
  

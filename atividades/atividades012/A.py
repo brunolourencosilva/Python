@@ -19,9 +19,9 @@ class Intervalo(InicioFim):
     def intervalo(self, inicio, final):
         
         contador = inicio
-        
-        while contador <= final:
-            print(f'numero: {contador}', end=' | ')
+
+        for contador in range(final + 1):
+            print(f'{contador}', end=' | ')
             contador += 1
 
 

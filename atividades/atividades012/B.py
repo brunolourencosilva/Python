@@ -8,26 +8,29 @@ import os
 
 os.system('cls')
 
-class Contador:
+import os
+
+
+os.system('cls')
+
+class InicioFim:
     def __init__(self, inicio, final):
         self.inicio = inicio
         self.final = final
-        
+
+class Intervalo(InicioFim):
+    
     def intervalo(self, inicio, final):
         
         contador = inicio
-        
-        while contador <= final:
-            print(f'numero: {contador}', end=' | ')
+        for contador in range(final + 1):
+            print(f'{contador}', end=' | ')
             contador += 1
 
-        return 
 
 inicio = int(input('Digite o valor inicial: '))
 final = int(input('Digite o valor final: '))
 
-objeto_contador = Contador(inicio,final)
+objeto_contador = Intervalo(inicio,final)
 
 intervalo = objeto_contador.intervalo(inicio,final)
-
-print('-'*70)

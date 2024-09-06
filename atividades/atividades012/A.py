@@ -9,11 +9,13 @@ import os
 
 os.system('cls')
 
-class Contador:
+class InicioFim:
     def __init__(self, inicio, final):
         self.inicio = inicio
         self.final = final
-        
+
+class Intervalo(InicioFim):
+    
     def intervalo(self, inicio, final):
         
         contador = inicio
@@ -22,13 +24,8 @@ class Contador:
             print(f'numero: {contador}', end=' | ')
             contador += 1
 
-        return 
 
-inicio = int(input('Digite o valor inicial: '))
-final = int(input('Digite o valor final: '))
-
-objeto_contador = Contador(inicio,final)
-
-intervalo = objeto_contador.intervalo(inicio,final)
+objeto_contador = Intervalo(0,100)
+intervalo = objeto_contador.intervalo(0,100)
 
 print('-'*70)

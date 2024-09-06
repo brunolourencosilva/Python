@@ -8,11 +8,6 @@ import os
 
 os.system('cls')
 
-import os
-
-
-os.system('cls')
-
 class InicioFim:
     def __init__(self, inicio, final):
         self.inicio = inicio

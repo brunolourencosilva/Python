@@ -30,4 +30,4 @@ class Primos(Intervalo):
 
 
 resultados = Primos(0,100)
-numeros_pares = resultados.descobrir_par(0,100)
+numeros_impares = resultados.descobrir_par(0,100)

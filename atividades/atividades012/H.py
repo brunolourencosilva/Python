@@ -12,4 +12,24 @@ class Intervalo:
         self.ignorar2 = ignorar2
         self.ignorar3 = ignorar3
     
+    def exibir_ignorados(self, ignorar1, ignorar2, ignorar3):
+        print(f'Numeros ignorados: {ignorar1} | {ignorar2} | {ignorar3}')
+
+class (Intervalo):
+    
+    def intervalo(self, inicio, final):
+        
+        contador = inicio
+        for contador in range(final + 1):
+            print(f'{contador}', end=' | ')
+            contador += 1
+
+
+inicio = int(input('Digite o valor inicial: '))
+final = int(input('Digite o valor final: '))
+
+objeto_contador = Intervalo(inicio,final)
+
+intervalo = objeto_contador.intervalo(inicio,final)
+
         

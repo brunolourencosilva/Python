@@ -8,6 +8,7 @@ import os
 
 os.system('cls')
 
+
 class InicioFim:
     def __init__(self, inicio, final):
         self.inicio = inicio
@@ -19,7 +20,7 @@ class Intervalo_invertido(InicioFim):
         
         contador = inicio
 
-        for contador in range(final + 1):
+        for contador in range(inicio,final + 1):
             print(f'{final}', end=' | ')
             final -= 1
 

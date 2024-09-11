@@ -16,7 +16,7 @@ class Intervalo:
 class Primos(Intervalo):
     def descobrir_par(self,inicio, final):
         
-        inicio = 3
+        inicio = 2
         fim = 100
         contador = inicio
         
